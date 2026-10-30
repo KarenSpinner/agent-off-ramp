@@ -1,0 +1,17 @@
+# secrets: never commit
+.env
+.env.*
+!.env.example
+
+# local environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# debug runs and sweep chatter (the 16 study runs under pilot/logs are tracked)
+pilot/logs/debug/
+pilot/logs/gemini_debug/
+pilot/logs/**/DONE*
+pilot/logs/**/*.out
