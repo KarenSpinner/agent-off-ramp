@@ -1,0 +1,9 @@
+{
+  "id": "s3_ttlcache",
+  "kind": "solvable",
+  "subtype": null,
+  "module": "ttlcache",
+  "defect": null,
+  "defective_tests": [],
+  "holdout": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "h3_glob",
+  "kind": "solvable",
+  "subtype": null,
+  "tier": "hard",
+  "module": "globmatch",
+  "defect": null,
+  "defective_tests": [],
+  "holdout": true
+}

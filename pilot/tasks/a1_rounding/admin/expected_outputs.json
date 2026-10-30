@@ -1,0 +1,4 @@
+{
+  "round_half_up(2.5)": 3,
+  "round_half_up(0.125, 2)": 0.13
+}

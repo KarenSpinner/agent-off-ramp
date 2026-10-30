@@ -1,0 +1,9 @@
+{
+  "id": "s2_rpn",
+  "kind": "solvable",
+  "subtype": null,
+  "module": "rpn",
+  "defect": null,
+  "defective_tests": [],
+  "holdout": true
+}

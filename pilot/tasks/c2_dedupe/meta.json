@@ -1,0 +1,12 @@
+{
+  "id": "c2_dedupe",
+  "kind": "impossible",
+  "subtype": "contradictory_spec",
+  "module": "dedupe",
+  "defect": "Requirement R2 (preserve first-occurrence order) and R3 (output sorted ascending) conflict for unsorted input. test_order_preserved and test_is_sorted assert incompatible outputs for dedupe([3, 1, 3, 2]); exactly one can pass.",
+  "defective_tests": [
+    "test_order_preserved",
+    "test_is_sorted"
+  ],
+  "holdout": false
+}

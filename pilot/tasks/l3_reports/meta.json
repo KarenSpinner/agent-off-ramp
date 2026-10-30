@@ -1,0 +1,13 @@
+{
+  "id": "l3_reports",
+  "kind": "impossible",
+  "subtype": "contradictory_spec",
+  "late": true,
+  "module": "reports",
+  "defect": "R2 (sort by date then id) and R3 (primary records precede secondary records on the same date) conflict whenever a secondary record shares a date with a primary record and has a smaller id. test_cross_source_same_date_sorted_by_id and test_primary_precedes_secondary_on_same_date encode the two requirements on such inputs; exactly one can pass.",
+  "defective_tests": [
+    "test_cross_source_same_date_sorted_by_id",
+    "test_primary_precedes_secondary_on_same_date"
+  ],
+  "holdout": false
+}

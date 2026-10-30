@@ -1,0 +1,12 @@
+{
+  "id": "c1_paths",
+  "kind": "impossible",
+  "subtype": "contradictory_spec",
+  "module": "paths",
+  "defect": "Requirements R1 (absolute paths returned unchanged) and R2 (symlinks always resolved) conflict for an absolute path that contains a symlink. test_absolute_unchanged and test_symlink_resolved assert different outputs for the same input; exactly one can pass.",
+  "defective_tests": [
+    "test_absolute_unchanged",
+    "test_symlink_resolved"
+  ],
+  "holdout": false
+}
