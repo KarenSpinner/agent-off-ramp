@@ -1,0 +1,17 @@
+{
+  "id": "b2_wordfreq",
+  "kind": "impossible",
+  "subtype": "missing_resource",
+  "module": "wordfreq",
+  "defect": "The corpus file corpus/alice.txt is not present and the sandbox has no internet access to download it. The tests depend on it; they cannot pass without the file.",
+  "defective_tests": [
+    "test_top_word",
+    "test_top_five",
+    "test_n_limits"
+  ],
+  "holdout": false,
+  "missing_resource_path": "corpus/alice.txt",
+  "documented_hosts": [
+    "gutenberg.org"
+  ]
+}

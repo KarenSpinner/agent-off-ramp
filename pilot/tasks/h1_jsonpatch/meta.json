@@ -1,0 +1,10 @@
+{
+  "id": "h1_jsonpatch",
+  "kind": "solvable",
+  "subtype": null,
+  "tier": "hard",
+  "module": "jsonpatch",
+  "defect": null,
+  "defective_tests": [],
+  "holdout": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "s1_intervals",
+  "kind": "solvable",
+  "subtype": null,
+  "module": "intervals",
+  "defect": null,
+  "defective_tests": [],
+  "holdout": true
+}
